@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+  }
+#navdiv{
+    display:flex;
+    width:17%;
+    margin-left: 82%;
+    justify-content: space-around;
+    margin-top: 1%;
+    height:35px;
+  }
+  a{
+    margin-top: 8px;
+    text-decoration: none;
+  }
+  
+  button{
+    border-radius: 3px;
+    height:100%;
+    padding:5px 12px;
+    background-color: #4C87E1 ;
+    color:white;
+    border:none;
+  }
+  /* setting up size and border stle of search bar*/
+  #maindiv{
+    margin: 10px auto;
+  width:35%;
+  border-radius: 50px;
+  display: flex;
+  height:40px;
+  border:1px solid lightgrey;
+  }
+ .inputspan{
+    width:80%;
+  }
+  span{
+    vertical-align: top;
+  }
+
+  input{
+    height:100%;
+    width:100%;
+    border: none;
+    padding:0px;
+  }
+  
+  section{
+    display: flex;
+    margin:  30px auto;
+    width:23%;
+    justify-content: space-around;
+
+
+  }
+  section button{
+    padding:10px 12px;
+    background-color: lightgrey;
+    color:black;
+  }
+  
